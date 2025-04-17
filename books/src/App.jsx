@@ -67,6 +67,8 @@ function App() {
           element ={
           <BookPage 
                 books = {books}
+                goTobooks = {goTobooks}
+                goTobook={goTobook}
               />}/>
           <Route path="/" element={
             <AllBooksPage
